@@ -1,0 +1,136 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+@font-face {
+	font-family: Carving;
+	src: url(carving_thin.otf);
+}
+
+@font-face {
+	font-family: Carving_thick;
+	src: url(made_carving.otf);
+}
+
+@font-face {
+	font-family: highlight;
+	src: url(highlight.ttf);
+}
+
+@font-face {
+	font-family: market;
+	src: url(market.ttf);
+}
+
+.navbar-brand {
+	font-family: highlight;
+}
+
+#mainNav {
+	background-color: #e9fac5  !important;
+}
+
+.navbar-brand {
+	color: #0a4c40 !important;
+}
+
+.navbar-toggler {
+	color: #0a4c40;
+}
+
+.nav-item a:link {
+	color: #003A3F !important;
+	font-family: carving_thick;
+}
+
+.nav-item a:visited {
+	color: #003A3F !important;
+}
+
+.nav-item a:hover{ 
+	text-decoration: underline;
+	color: #eb4034 !important;	
+}
+
+#header {
+	background-image: url("background.png") !important;
+}
+
+.main_lead {
+	color: #e9fac5 ;
+	font-family: market;
+	font-size: 200%;
+	letter-spacing: 3px;
+}
+
+.lead {
+	line-height: 35px;
+	font-family: Carving;
+}
+
+#about {
+	background-color: #e1f2ed;
+}
+
+h1 {
+	font-family: highlight;
+	font-size: 550%;
+	color: white ;
+}
+
+h2 {
+	font-family: highlight;
+	color: #003A3F;
+	font-size: 250%;
+}
+
+a:link {
+	color: #eb4034;
+	font-family: carving_thick;
+
+}
+
+a:visited {
+	color: #eb4034;
+
+}
+
+a:hover {
+	color: #630219;
+	font-family: carving_thick;
+
+}
+
+a:active {
+	color: #630219;
+	font-family: carving_thick;
+
+}
+
+.card-text {
+	font-family: carving;
+}
+
+.card-title {
+	font-family: market;
+}
+
+.card-body {
+	background-color: white;
+
+}
+
+#shopping {
+	background-color: #ffebe6;
+}
+
+#food {
+	background-color:#d5ebdb;
+	background-image: url("food_background.png") !important;
+}
+
+#health_and_wellness {
+	background-color: #fffad9;
+	background-image: url("health_background.png");
+}
+
+#lifestyle {
+	background-color: #ffecd6;
+}
